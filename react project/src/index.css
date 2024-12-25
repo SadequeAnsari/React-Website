@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: rgb(136, 136, 215);
+    padding: 0 2rem;
+}
+
+.navbar-brand {
+    color: rgb(243, 242, 242);
+    font-size: 1.8rem;
+    transition: all 0.3s linear;
+}
+
+.navbar-brand:hover {
+    text-shadow: .2rem 0 coral;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 1.3rem;
+    color: white;
+    transition: all 1s linear;
+    margin-left: 1rem;
+
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.btn {
+    background: white;
+    color: black;
+    font-size: 1.2rem;
+    padding: .3rem 2rem;
+    border-radius: 5rem;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    border: 2px solid black;
+}
+
+.btn-1 {
+    margin-right: 2rem;
+}
+
+.btn-1:hover {
+    background: rgb(63, 56, 123);
+    color: white;
+}
+
+.btn-2 {
+    background: rgb(63, 56, 123);
+    color: white;
+}
+
+.btn-2:hover {
+    background: white;
+}
+
+
+/*====================================
+ Hero code section start
+======================================*/
+section {
+    padding-top: 4rem;
+}
+
+.hero-top-data {
+    font-size: 1.6rem ;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: .2rem 0  rgb(141, 176, 224);
+    font-weight: 500;
+
+}
+.hero-heading {
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: .2rem 0 chocolate;
+
+}
+.hero-heading span {
+    color: chocolate;
+    text-shadow: .2rem 0 rgb(13, 9, 7);
+
+
+}
+.hero-img {
+    width: 80%;
+    border-radius: .4rem;
+    /* border: 2px solid blue; */
+    box-shadow: 1px 0 4px 4px rgb(175, 175, 243);
+}
+.hero-para {
+    font-size: 1.1rem;
+    margin-bottom: 1.4rem;
+}
+/*====================================
+ Hero code section End
+======================================*/
+
+/*====================================
+ Services code section start
+======================================*/
+.common {
+    text-align: center;
+    text-shadow: .2rem 0 chocolate;
+    font-size: 2.4rem;
+    margin-top: 4.3rem;
+}
+
+/*====================================
+ contact code section start
+======================================*/
+
+
+label{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+input{
+    height: 3rem;
+    padding-left: 1rem;
+}
+
+.sub-btn{
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    transition: all 0.3s linear;
+    background-color: green;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.sub-btn:hover{
+    background-color: inherit;
+    color: green;
+    border-color: green;
+}
+/*====================================
+Footer code section start
+====================================== */
+.footer-section{
+    background-color: rgb(136, 136, 215);
+    padding-top: 2rem;
+    color: white;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+}
+.add a{
+    text-decoration: none;
+    color: white;
+    padding-top: .5rem;
+    transition: all 0.4s linear;
+}
+.add a:hover{
+    color: black;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    padding-top: .5rem;
+    transition: all 0.4s linear;
+}
+.link a:hover{
+    color: black;
+}
+
+
+.footer-section input{
+    width: 15rem;
+}
+
+/*====================================
+Responsive code section start
+====================================== */
+
+@media (max-width:448px) {
+    .navbar {
+        padding-bottom: 1rem;
+    }
+    .btn {
+        font-size: 1rem;
+        margin: auto;
+    }
+    .btn-2 {
+        margin: auto;
+        font-size: 15px;
+    }
+    .hero-img {
+        width: 100%;
+    }
+    .footer-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:998px) {
+    .navbar {
+        padding-bottom: 1rem;
+    }
+    .hero-img {
+        width: 100%;
+    }
+    
+}
